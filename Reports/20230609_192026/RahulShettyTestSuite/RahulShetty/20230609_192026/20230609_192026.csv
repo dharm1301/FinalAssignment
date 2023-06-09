@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RahulShetty,Chrome 108.0.0.0,,,2023-06-09 19:20:32,2023-06-09 19:21:54,1m - 22.126s,PASSED
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Chrome 108.0.0.0,,,2023-06-09 19:20:33,2023-06-09 19:21:14,40.756s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-06-09 19:20:33,2023-06-09 19:20:33,0.000s,PASSED
+Start setup action : SetupMethod,Chrome 108.0.0.0,,,2023-06-09 19:20:33,2023-06-09 19:20:46,13.164s,PASSED
+"homevariable = ""Home""",Chrome 108.0.0.0,,,2023-06-09 19:20:46,2023-06-09 19:20:46,0.000s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":homevariable]))",Chrome 108.0.0.0,,,2023-06-09 19:20:46,2023-06-09 19:20:47,0.641s,PASSED
+delay(1),Chrome 108.0.0.0,,,2023-06-09 19:20:47,2023-06-09 19:20:48,1.001s,PASSED
+"shopvariable = ""shop""",Chrome 108.0.0.0,,,2023-06-09 19:20:48,2023-06-09 19:20:48,0.000s,PASSED
+"verifyElementClickable(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Chrome 108.0.0.0,,,2023-06-09 19:20:48,2023-06-09 19:20:50,1.741s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Chrome 108.0.0.0,,,2023-06-09 19:20:50,2023-06-09 19:20:52,1.773s,PASSED
+"com.RSPage.checkout(Add_Object, Checkout_Object)",Chrome 108.0.0.0,,,2023-06-09 19:20:52,2023-06-09 19:20:58,6.140s,PASSED
+"verifyElementText(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X""), ""iphone X"")",Chrome 108.0.0.0,,,2023-06-09 19:20:58,2023-06-09 19:20:58,0.561s,PASSED
+"com.RSPage.payment(FinalCheckout, tnc, purchase)",Chrome 108.0.0.0,,,2023-06-09 19:20:58,2023-06-09 19:21:04,5.608s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-06-09 19:21:04,2023-06-09 19:21:05,0.564s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home""))",Chrome 108.0.0.0,,,2023-06-09 19:21:05,2023-06-09 19:21:05,0.572s,PASSED
+"com.RSPage.formdata(name, email, password, name_object, email_object, password_object)",Chrome 108.0.0.0,,,2023-06-09 19:21:05,2023-06-09 19:21:08,2.499s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg""))",Chrome 108.0.0.0,,,2023-06-09 19:21:08,2023-06-09 19:21:10,2.812s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-06-09 19:21:10,2023-06-09 19:21:11,0.609s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success""))",Chrome 108.0.0.0,,,2023-06-09 19:21:11,2023-06-09 19:21:11,0.364s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-06-09 19:21:11,2023-06-09 19:21:13,2.001s,PASSED
+Start tear down : TearDownMethod,Chrome 108.0.0.0,,,2023-06-09 19:21:13,2023-06-09 19:21:14,0.505s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-06-09 19:21:14,2023-06-09 19:21:14,0.001s,PASSED
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Chrome 108.0.0.0,,,2023-06-09 19:21:14,2023-06-09 19:21:54,39.868s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-06-09 19:21:14,2023-06-09 19:21:14,0.000s,PASSED
+Start setup action : SetupMethod,Chrome 108.0.0.0,,,2023-06-09 19:21:14,2023-06-09 19:21:26,11.491s,PASSED
+"homevariable = ""Home""",Chrome 108.0.0.0,,,2023-06-09 19:21:26,2023-06-09 19:21:26,0.000s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":homevariable]))",Chrome 108.0.0.0,,,2023-06-09 19:21:26,2023-06-09 19:21:26,0.491s,PASSED
+delay(1),Chrome 108.0.0.0,,,2023-06-09 19:21:26,2023-06-09 19:21:27,1.002s,PASSED
+"shopvariable = ""shop""",Chrome 108.0.0.0,,,2023-06-09 19:21:27,2023-06-09 19:21:27,0.001s,PASSED
+"verifyElementClickable(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Chrome 108.0.0.0,,,2023-06-09 19:21:27,2023-06-09 19:21:29,1.718s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Chrome 108.0.0.0,,,2023-06-09 19:21:29,2023-06-09 19:21:30,1.652s,PASSED
+"com.RSPage.checkout(Add_Object, Checkout_Object)",Chrome 108.0.0.0,,,2023-06-09 19:21:30,2023-06-09 19:21:37,6.071s,PASSED
+"verifyElementText(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X""), ""iphone X"")",Chrome 108.0.0.0,,,2023-06-09 19:21:37,2023-06-09 19:21:37,0.550s,PASSED
+"com.RSPage.payment(FinalCheckout, tnc, purchase)",Chrome 108.0.0.0,,,2023-06-09 19:21:37,2023-06-09 19:21:42,5.082s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-06-09 19:21:42,2023-06-09 19:21:43,0.563s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home""))",Chrome 108.0.0.0,,,2023-06-09 19:21:43,2023-06-09 19:21:43,0.565s,PASSED
+"com.RSPage.formdata(name, email, password, name_object, email_object, password_object)",Chrome 108.0.0.0,,,2023-06-09 19:21:43,2023-06-09 19:21:46,2.770s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg""))",Chrome 108.0.0.0,,,2023-06-09 19:21:46,2023-06-09 19:21:49,2.919s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-06-09 19:21:49,2023-06-09 19:21:49,0.475s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success""))",Chrome 108.0.0.0,,,2023-06-09 19:21:49,2023-06-09 19:21:50,0.381s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-06-09 19:21:50,2023-06-09 19:21:52,2.001s,PASSED
+Start tear down : TearDownMethod,Chrome 108.0.0.0,,,2023-06-09 19:21:52,2023-06-09 19:21:54,1.986s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-06-09 19:21:54,2023-06-09 19:21:54,0.000s,PASSED

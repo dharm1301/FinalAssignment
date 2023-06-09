@@ -63,7 +63,43 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>38950928-f2ca-4ae6-b5ec-694699d470b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>210a47d4-0b02-4080-8e51-f5274aed4ccf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf458b02-46ba-46b9-8803-5fddd50d265e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a2426a1-d81b-4252-a553-76039686c59d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a95b3d1b-95d4-4cdf-b0cc-4c3defe0463a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f940c918-9a87-43cd-89c2-9a806500e416</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cebcdb8-ca9a-4ec3-9602-2c9c6d9fe2e8</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -129,10 +165,52 @@
       <name>Add_Object</name>
    </variable>
    <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Name_name'</defaultValue>
+      <description></description>
+      <id>38950928-f2ca-4ae6-b5ec-694699d470b5</id>
+      <masked>false</masked>
+      <name>name_object</name>
+   </variable>
+   <variable>
       <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)'</defaultValue>
       <description></description>
       <id>210a47d4-0b02-4080-8e51-f5274aed4ccf</id>
       <masked>false</masked>
       <name>Checkout_Object</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Password_exampleInputPassword1'</defaultValue>
+      <description></description>
+      <id>bf458b02-46ba-46b9-8803-5fddd50d265e</id>
+      <masked>false</masked>
+      <name>password_object</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Checkout'</defaultValue>
+      <description></description>
+      <id>7a2426a1-d81b-4252-a553-76039686c59d</id>
+      <masked>false</masked>
+      <name>FinalCheckout</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Email_email'</defaultValue>
+      <description></description>
+      <id>a95b3d1b-95d4-4cdf-b0cc-4c3defe0463a</id>
+      <masked>false</masked>
+      <name>email_object</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'</defaultValue>
+      <description></description>
+      <id>f940c918-9a87-43cd-89c2-9a806500e416</id>
+      <masked>false</masked>
+      <name>purchase</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions'</defaultValue>
+      <description></description>
+      <id>6cebcdb8-ca9a-4ec3-9602-2c9c6d9fe2e8</id>
+      <masked>false</masked>
+      <name>tnc</name>
    </variable>
 </TestCaseEntity>

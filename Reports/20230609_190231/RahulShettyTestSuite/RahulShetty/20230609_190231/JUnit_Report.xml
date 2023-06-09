@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RahulShetty" time="56.579" tests="2" failures="0" errors="2">
+   <testsuite name="RahulShetty" tests="2" failures="0" errors="2" time="56.579" skipped="0" timestamp="2023-06-09 19:02:37" hostname="dharm - SF-CPU-792" id="Test Suites/RahulShettyTestSuite/RahulShetty">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231"/>
+         <property name="logFiles" value="/home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/execution0.log"/>
+         <property name="attachments" value="/home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317565634.png, /home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317566242.png, /home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317579260.png, /home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317579860.png, /home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317591814.png, /home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317592387.png, /home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317604340.png, /home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317604887.png"/>
+         <property name="hostName" value="dharm - SF-CPU-792"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="2466a9b597c053fb1803aeefe674fbbb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" time="12.452" classname="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" status="ERROR">
+         <error type="ERROR" message="Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED."/>
+         <system-out><![CDATA[2023-06-09 19:03:18 - [TEST_CASE][ERROR] - Test Cases/RahulShettyTestCase/RahulShettyLoginPage: Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.
+
+2023-06-09 19:03:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-06-09 19:03:18 - [TEST_STEP][PASSED] - Start setup action : SetupMethod: Method 'SetupMethod' complete successfully
+
+2023-06-09 19:03:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/loginpagePractise/' successfully
+
+2023-06-09 19:03:18 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/loginpagePractise/' successfully
+
+2023-06-09 19:03:18 - [TEST_STEP][PASSED] - getUrl().equals("https://rahulshettyacademy.com/loginpagePractise/"): Current window's url is: 'https://rahulshettyacademy.com/loginpagePractise/'
+
+2023-06-09 19:03:18 - [MESSAGE][PASSED] - Current window's url is: 'https://rahulshettyacademy.com/loginpagePractise/'
+
+2023-06-09 19:03:18 - [TEST_STEP][FAILED] - try: Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.
+
+2023-06-09 19:03:18 - [TEST_STEP][FAILED] - com.RSPage.Invalidlogin(Invalidusername, LoginPassword, object_username, object_password): Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.
+
+2023-06-09 19:03:19 - [MESSAGE][PASSED] - Text 'dharm' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'
+
+2023-06-09 19:03:20 - [MESSAGE][PASSED] - Text 'learning' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'
+
+2023-06-09 19:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clickable
+
+2023-06-09 19:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clicked on
+
+2023-06-09 19:03:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_You will be limited to only fewer functionalities of the app. Proceed' are matched.
+
+2023-06-09 19:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay' is clicked on
+
+2023-06-09 19:03:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-09 19:03:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin'. Try using Self-healing.
+
+2023-06-09 19:03:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' was broken. Propose an alternative one: '//input[@id='signInBtn']'.
+
+2023-06-09 19:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-09 19:03:24 - [MESSAGE][FAILED] - Actual text '' and expected text ' username/password.' of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text ' username/password.' of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at com.RSPage.Invalidlogin(RSPage.groovy:51)
+	at com.RSPage.invokeMethod(RSPage.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:63)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686317551472.run(TempTestSuite1686317551472.groovy:36)
+)
+[[ATTACHMENT|/home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317604340.png]]
+
+2023-06-09 19:03:25 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at com.RSPage.Invalidlogin(RSPage.groovy:51)
+	at com.RSPage.invokeMethod(RSPage.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:63)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686317551472.run(TempTestSuite1686317551472.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text ' username/password.' of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+[[ATTACHMENT|/home/dharm/git/FinalAssignment/Reports/20230609_190231/RahulShettyTestSuite/RahulShetty/20230609_190231/1686317604887.png]]
+
+2023-06-09 19:03:25 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.
+
+2023-06-09 19:03:25 - [TEST_STEP][PASSED] - catch (Exception e): com.RSPage.Validlogin is PASSED
+
+2023-06-09 19:03:25 - [TEST_STEP][PASSED] - com.RSPage.Validlogin(Validusername, LoginPassword, object_username, object_password): com.RSPage.Validlogin is PASSED
+
+2023-06-09 19:03:26 - [MESSAGE][PASSED] - Text 'rahulshettyacademy' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'
+
+2023-06-09 19:03:27 - [MESSAGE][PASSED] - Text 'learning' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'
+
+2023-06-09 19:03:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-09 19:03:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin'. Try using Self-healing.
+
+2023-06-09 19:03:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' was broken. Propose an alternative one: '//input[@id='signInBtn']'.
+
+2023-06-09 19:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-09 19:03:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-09 19:03:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-09 19:03:31 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is present
+
+2023-06-09 19:03:31 - [MESSAGE][PASSED] - com.RSPage.Validlogin is PASSED
+
+2023-06-09 19:03:31 - [MESSAGE][PASSED] - Method 'SetupMethod' complete successfully
+
+2023-06-09 19:03:31 - [TEST_STEP][PASSED] - Start tear down : TearDownMethod: Method 'TearDownMethod' complete successfully
+
+2023-06-09 19:03:31 - [MESSAGE][PASSED] - Method 'TearDownMethod' complete successfully
+
+2023-06-09 19:03:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2023-06-09 19:03:18 - [TEST_CASE][ERROR] - Test Cases/RahulShettyTestCase/RahulShettyLoginPage: Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" time="0.136" classname="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" status="ERROR">
+         <error type="ERROR" message="Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/'"/>
+         <system-out><![CDATA[2023-06-09 19:03:34 - [TEST_CASE][ERROR] - Test Cases/RahulShettyTestCase/RahulShettyLoginPage: Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/'
+
+2023-06-09 19:03:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-06-09 19:03:34 - [TEST_STEP][ERROR] - Start setup action : SetupMethod: Error occurred when try to run method 'SetupMethod' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/')
+
+2023-06-09 19:03:34 - [TEST_STEP][FAILED] - navigateToUrl(url): Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$1.call(Unknown Source)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:57)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686317551472.run(TempTestSuite1686317551472.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'sf-cpu-792', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-43-generic', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.h4cNgs}, goog:chromeOptions: {debuggerAddress: localhost:37279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2466a9b597c053fb1803aeefe674fbbb
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-06-09 19:03:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2023-06-09 19:03:34 - [MESSAGE][FAILED] - Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$1.call(Unknown Source)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:57)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686317551472.run(TempTestSuite1686317551472.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'sf-cpu-792', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-43-generic', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.h4cNgs}, goog:chromeOptions: {debuggerAddress: localhost:37279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2466a9b597c053fb1803aeefe674fbbb
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-06-09 19:03:34 - [MESSAGE][ERROR] - Error occurred when try to run method 'SetupMethod' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/')
+
+2023-06-09 19:03:34 - [TEST_STEP][PASSED] - Start tear down : TearDownMethod: Method 'TearDownMethod' complete successfully
+
+2023-06-09 19:03:34 - [MESSAGE][PASSED] - Method 'TearDownMethod' complete successfully
+
+2023-06-09 19:03:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2023-06-09 19:03:34 - [TEST_CASE][ERROR] - Test Cases/RahulShettyTestCase/RahulShettyLoginPage: Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://rahulshettyacademy.com/loginpagePractise/']]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-09 19:02:37 - [TEST_SUITE][ERROR] - RahulShetty: Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.]]></system-out>
+      <system-err><![CDATA[2023-06-09 19:02:37 - [TEST_SUITE][ERROR] - RahulShetty: Test Cases/RahulShettyTestCase/RahulShettyLoginPage has ERROR(s).
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword' FAILED.]]></system-err>
+   </testsuite>
+</testsuites>

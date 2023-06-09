@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>RahulShetty</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>80df610c-193a-4fad-90fc-0501ac4a3ea7</testSuiteGuid>
+   <testCaseLink>
+      <guid>b1fcb9d1-c33a-4b46-8b6c-c575914b9c4b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RahulShettyTestCase/RahulShettyLoginPage</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9c011541-43be-4b24-a968-a37ecdb7dd3b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/RahulShettyData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9c011541-43be-4b24-a968-a37ecdb7dd3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>a031c246-0d3f-40c6-a5de-ffcfe9d17308</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9c011541-43be-4b24-a968-a37ecdb7dd3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>7ef3d49b-ab2e-4f86-a178-322f92f92ff6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9c011541-43be-4b24-a968-a37ecdb7dd3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c43dd5aa-e5fd-420f-9b7f-3b85955c6adf</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

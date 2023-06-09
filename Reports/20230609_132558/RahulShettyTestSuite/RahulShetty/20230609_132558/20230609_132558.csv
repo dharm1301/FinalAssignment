@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RahulShetty,Chrome 108.0.0.0,,,2023-06-09 13:26:04,2023-06-09 13:26:13,8.953s,ERROR
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Chrome 108.0.0.0,,,2023-06-09 13:26:12,2023-06-09 13:26:13,1.726s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-06-09 13:26:12,2023-06-09 13:26:12,0.001s,PASSED
+Start setup action : SetupMethod,Chrome 108.0.0.0,,,2023-06-09 13:26:12,2023-06-09 13:26:13,1.149s,ERROR
+Start tear down : TearDownMethod,Chrome 108.0.0.0,,,2023-06-09 13:26:13,2023-06-09 13:26:13,0.545s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-06-09 13:26:13,2023-06-09 13:26:13,0.000s,PASSED

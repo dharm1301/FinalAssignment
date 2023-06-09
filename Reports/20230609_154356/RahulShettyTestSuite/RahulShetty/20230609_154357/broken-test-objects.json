@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027signInBtn\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230609_154356/RahulShettyTestSuite/RahulShetty/20230609_154357/Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop",
+      "brokenLocator": "//*[(text() \u003d \u0027shop\u0027 or . \u003d \u0027shop\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[@href \u003d \u0027/angularpractice/shop\u0027 and (text() \u003d \u0027Shop\u0027 or . \u003d \u0027Shop\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230609_154356/RahulShettyTestSuite/RahulShetty/20230609_154357/Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop_XPATH.png"
+    }
+  ]
+}

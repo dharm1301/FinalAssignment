@@ -19,27 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 String homevariable = 'Home'
 
-WebUI.click(findTestObject('RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop',[('text'):homevariable]))
+WebUI.click(findTestObject('RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop', [('text') : homevariable]))
 
 WebUI.delay(2)
 
 String shopvariable = 'shop'
 
-WebUI.click(findTestObject('RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop',[('text'):shopvariable]))
+WebUI.verifyElementClickable(findTestObject('RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop', [('text') : shopvariable]))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop', [('text') : shopvariable]))
 
-WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Add'))
+CustomKeywords.'com.RSPage.checkout'(Add_Object, Checkout_Object)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)'))
+WebUI.verifyElementText(findTestObject('RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X'), 'iphone X')
 
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Checkout'))
 
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions'))
 
+WebUI.verifyElementClickable(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'))
+
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'))
+
+WebUI.verifyElementVisible(findTestObject('RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home'))
 
@@ -56,6 +59,9 @@ WebUI.setText(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Rep
 
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'))
 
+WebUI.verifyElementVisible(findTestObject('RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully'), 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success'))
 
 //    WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop'))
@@ -65,29 +71,39 @@ WebUI.delay(2)
 def SetupMethod() {
     WebUI.navigateToUrl(GlobalVariable.url)
 
-    try {
-        WebUI.setText(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'), 
-            'dharm')
+    WebUI.getUrl().equals('https://rahulshettyacademy.com/loginpagePractise/')
 
-        WebUI.setEncryptedText(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'), 
-            'vChGV51bHgJ2ZUog9CEBVw==')
+    try {
+		
+		CustomKeywords.'com.RSPage.login'(Invalidusername,LoginPassword,object_username,object_password)
+		
+        WebUI.verifyElementClickable(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark'))
+
+        WebUI.click(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark'))
+
+        WebUI.verifyElementText(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_You will be limited to only fewer functionalities of the app. Proceed'), 
+            'You will be limited to only fewer functionalities of the app. Proceed?')
+
+        WebUI.click(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay'))
 
         WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin'))
 
-        WebUI.verifyElementPresent(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'), 0)
+        WebUI.verifyElementText(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword'), 
+            ' username/password.')
+
+        WebUI.verifyElementPresent(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'), 
+            0)
     }
     catch (Exception e) {
-        WebUI.setText(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'), 
-            'rahulshettyacademy')
-
-        WebUI.setEncryptedText(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'), 
-            '1PiAXA7e6bXYOnY+D2FYUg==')
-
+		
+		CustomKeywords.'com.RSPage.login'(Validusername,LoginPassword,object_username,object_password)
+      
         WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin'))
 
         WebUI.delay(2)
 
-        WebUI.verifyElementPresent(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'), 0)
+        WebUI.verifyElementPresent(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'), 
+            0)
     } 
 }
 

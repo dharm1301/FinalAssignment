@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RahulShetty,Chrome 108.0.0.0,,,2023-06-09 15:37:56,2023-06-09 15:38:43,47.073s,ERROR
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Chrome 108.0.0.0,,,2023-06-09 15:38:42,2023-06-09 15:38:42,0.129s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-06-09 15:38:42,2023-06-09 15:38:42,0.000s,PASSED
+Start setup action : SetupMethod,Chrome 108.0.0.0,,,2023-06-09 15:38:42,2023-06-09 15:38:42,0.014s,ERROR
+Start tear down : TearDownMethod,Chrome 108.0.0.0,,,2023-06-09 15:38:42,2023-06-09 15:38:42,0.065s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-06-09 15:38:42,2023-06-09 15:38:42,0.000s,PASSED
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Chrome 108.0.0.0,,,2023-06-09 15:38:43,2023-06-09 15:38:43,0.120s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-06-09 15:38:43,2023-06-09 15:38:43,0.001s,PASSED
+Start setup action : SetupMethod,Chrome 108.0.0.0,,,2023-06-09 15:38:43,2023-06-09 15:38:43,0.013s,ERROR
+Start tear down : TearDownMethod,Chrome 108.0.0.0,,,2023-06-09 15:38:43,2023-06-09 15:38:43,0.066s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-06-09 15:38:43,2023-06-09 15:38:43,0.000s,PASSED

@@ -44,5 +44,47 @@
          <value>password</value>
          <variableId>c43dd5aa-e5fd-420f-9b7f-3b85955c6adf</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>97742ad4-a34a-40ca-9e20-c4a2ae7a211b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6fa9b038-030f-4267-bf78-48c0c52ba97d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31ae69c4-3e84-4e83-8107-48825000e8b4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9bb732e2-c6e8-4a61-af12-4270071a8c98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>985d9aa5-7929-4853-bbb2-a643606c8608</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9763c220-d19a-449e-a3e5-d00b7447d616</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>210a47d4-0b02-4080-8e51-f5274aed4ccf</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

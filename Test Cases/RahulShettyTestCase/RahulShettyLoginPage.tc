@@ -23,6 +23,48 @@
       <value></value>
       <variableId>c43dd5aa-e5fd-420f-9b7f-3b85955c6adf</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97742ad4-a34a-40ca-9e20-c4a2ae7a211b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6fa9b038-030f-4267-bf78-48c0c52ba97d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31ae69c4-3e84-4e83-8107-48825000e8b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bb732e2-c6e8-4a61-af12-4270071a8c98</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>985d9aa5-7929-4853-bbb2-a643606c8608</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9763c220-d19a-449e-a3e5-d00b7447d616</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>210a47d4-0b02-4080-8e51-f5274aed4ccf</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -43,5 +85,54 @@
       <id>c43dd5aa-e5fd-420f-9b7f-3b85955c6adf</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'learning'</defaultValue>
+      <description></description>
+      <id>97742ad4-a34a-40ca-9e20-c4a2ae7a211b</id>
+      <masked>false</masked>
+      <name>LoginPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'rahulshettyacademy'</defaultValue>
+      <description></description>
+      <id>6fa9b038-030f-4267-bf78-48c0c52ba97d</id>
+      <masked>false</masked>
+      <name>Validusername</name>
+   </variable>
+   <variable>
+      <defaultValue>'dharm'</defaultValue>
+      <description></description>
+      <id>31ae69c4-3e84-4e83-8107-48825000e8b4</id>
+      <masked>false</masked>
+      <name>Invalidusername</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'</defaultValue>
+      <description></description>
+      <id>9bb732e2-c6e8-4a61-af12-4270071a8c98</id>
+      <masked>false</masked>
+      <name>object_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'</defaultValue>
+      <description></description>
+      <id>985d9aa5-7929-4853-bbb2-a643606c8608</id>
+      <masked>false</masked>
+      <name>object_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Add'</defaultValue>
+      <description></description>
+      <id>9763c220-d19a-449e-a3e5-d00b7447d616</id>
+      <masked>false</masked>
+      <name>Add_Object</name>
+   </variable>
+   <variable>
+      <defaultValue>'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)'</defaultValue>
+      <description></description>
+      <id>210a47d4-0b02-4080-8e51-f5274aed4ccf</id>
+      <masked>false</masked>
+      <name>Checkout_Object</name>
    </variable>
 </TestCaseEntity>

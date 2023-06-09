@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RahulShetty,Chrome 108.0.0.0,,,2023-06-09 14:15:29,2023-06-09 14:16:08,39.676s,ERROR
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Chrome 108.0.0.0,,,2023-06-09 14:15:30,2023-06-09 14:16:07,36.429s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-06-09 14:15:30,2023-06-09 14:15:30,0.001s,PASSED
+Start setup action : SetupMethod,Chrome 108.0.0.0,,,2023-06-09 14:15:30,2023-06-09 14:15:41,11.237s,PASSED
+"homevariable = ""Home""",Chrome 108.0.0.0,,,2023-06-09 14:15:41,2023-06-09 14:15:41,0.001s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":homevariable]))",Chrome 108.0.0.0,,,2023-06-09 14:15:41,2023-06-09 14:15:42,0.652s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-06-09 14:15:42,2023-06-09 14:15:44,2.003s,PASSED
+"shopvariable = ""shop""",Chrome 108.0.0.0,,,2023-06-09 14:15:44,2023-06-09 14:15:44,0.000s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Chrome 108.0.0.0,,,2023-06-09 14:15:44,2023-06-09 14:15:46,1.750s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-06-09 14:15:46,2023-06-09 14:15:48,2.003s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Add""))",Chrome 108.0.0.0,,,2023-06-09 14:15:48,2023-06-09 14:15:48,0.373s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-06-09 14:15:48,2023-06-09 14:15:50,2.002s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)""))",Chrome 108.0.0.0,,,2023-06-09 14:15:50,2023-06-09 14:15:52,1.637s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Checkout""))",Chrome 108.0.0.0,,,2023-06-09 14:15:52,2023-06-09 14:15:52,0.485s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions""))",Chrome 108.0.0.0,,,2023-06-09 14:15:52,2023-06-09 14:15:54,1.848s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg""))",Chrome 108.0.0.0,,,2023-06-09 14:15:54,2023-06-09 14:15:56,1.761s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home""))",Chrome 108.0.0.0,,,2023-06-09 14:15:56,2023-06-09 14:15:57,0.657s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-06-09 14:15:57,2023-06-09 14:15:59,2.002s,PASSED
+"setText(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Name_name""), name)",Chrome 108.0.0.0,,,2023-06-09 14:15:59,2023-06-09 14:15:59,0.843s,PASSED
+"setText(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Email_email""), email)",Chrome 108.0.0.0,,,2023-06-09 14:15:59,2023-06-09 14:16:00,0.723s,PASSED
+"setText(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Password_exampleInputPassword1""), password)",Chrome 108.0.0.0,,,2023-06-09 14:16:00,2023-06-09 14:16:01,0.824s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg""))",Chrome 108.0.0.0,,,2023-06-09 14:16:01,2023-06-09 14:16:04,2.526s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success""))",Chrome 108.0.0.0,,,2023-06-09 14:16:04,2023-06-09 14:16:04,0.580s,PASSED
+delay(2),Chrome 108.0.0.0,,,2023-06-09 14:16:04,2023-06-09 14:16:06,2.001s,PASSED
+Start tear down : TearDownMethod,Chrome 108.0.0.0,,,2023-06-09 14:16:06,2023-06-09 14:16:07,0.480s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-06-09 14:16:07,2023-06-09 14:16:07,0.001s,PASSED
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Chrome 108.0.0.0,,,2023-06-09 14:16:08,2023-06-09 14:16:08,0.133s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-06-09 14:16:08,2023-06-09 14:16:08,0.000s,PASSED
+Start setup action : SetupMethod,Chrome 108.0.0.0,,,2023-06-09 14:16:08,2023-06-09 14:16:08,0.016s,ERROR
+Start tear down : TearDownMethod,Chrome 108.0.0.0,,,2023-06-09 14:16:08,2023-06-09 14:16:08,0.108s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-06-09 14:16:08,2023-06-09 14:16:08,0.001s,PASSED

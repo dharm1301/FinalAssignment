@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/RahulShettyTestCase/RahulShettyLoginPage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9c011541-43be-4b24-a968-a37ecdb7dd3b</id>
+         <id>bca1163e-ef9f-4a32-95d2-dd7329409f01</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,19 +27,19 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>9c011541-43be-4b24-a968-a37ecdb7dd3b</testDataLinkId>
+         <testDataLinkId>bca1163e-ef9f-4a32-95d2-dd7329409f01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>a031c246-0d3f-40c6-a5de-ffcfe9d17308</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9c011541-43be-4b24-a968-a37ecdb7dd3b</testDataLinkId>
+         <testDataLinkId>bca1163e-ef9f-4a32-95d2-dd7329409f01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>7ef3d49b-ab2e-4f86-a178-322f92f92ff6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9c011541-43be-4b24-a968-a37ecdb7dd3b</testDataLinkId>
+         <testDataLinkId>bca1163e-ef9f-4a32-95d2-dd7329409f01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>c43dd5aa-e5fd-420f-9b7f-3b85955c6adf</variableId>

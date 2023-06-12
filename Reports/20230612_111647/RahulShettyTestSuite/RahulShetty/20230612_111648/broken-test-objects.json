@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop",
+      "brokenLocator": "//*[(text() \u003d \u0027shop\u0027 or . \u003d \u0027shop\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[@href \u003d \u0027/angularpractice/shop\u0027 and (text() \u003d \u0027Shop\u0027 or . \u003d \u0027Shop\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230612_111647/RahulShettyTestSuite/RahulShetty/20230612_111648/Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027navbarResponsive\u0027]/ul/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230612_111647/RahulShettyTestSuite/RahulShetty/20230612_111648/Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027(current)\u0027])[1]/following::label[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230612_111647/RahulShettyTestSuite/RahulShetty/20230612_111648/Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@value\u003d\u0027Purchase\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230612_111647/RahulShettyTestSuite/RahulShetty/20230612_111648/Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230612_111647/RahulShettyTestSuite/RahulShetty/20230612_111648/Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg_position.png"
+    }
+  ]
+}

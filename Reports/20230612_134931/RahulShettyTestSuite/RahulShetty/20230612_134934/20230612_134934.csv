@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RahulShetty,Firefox 114.0,,,2023-06-12 13:51:35,2023-06-12 13:52:57,1m - 21.100s,PASSED
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Firefox 114.0,,,2023-06-12 13:51:38,2023-06-12 13:52:18,40.074s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 114.0,,,2023-06-12 13:51:38,2023-06-12 13:51:38,0.000s,PASSED
+Start setup action : SetupMethod,Firefox 114.0,,,2023-06-12 13:51:38,2023-06-12 13:51:52,13.421s,PASSED
+delay(2),Firefox 114.0,"
+What is this test script refers to ?
+-> here i have first signup the form using wrong credentials and then signup using right credentials with asserting that values , then after adding on product to cart
+and redirecting to the checkout then after i fill the form which was in the home page by using DDT , moreever i have also use Dynamic objects , dynamic keywords ,
+Global variable ,test listeners and run that test script in chrome and mozilla combinely using test suite collection 
+
+",,2023-06-12 13:51:52,2023-06-12 13:51:54,2.002s,PASSED
+"homevariable = ""Home""",Firefox 114.0,,,2023-06-12 13:51:54,2023-06-12 13:51:54,0.000s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":homevariable]))",Firefox 114.0,,,2023-06-12 13:51:54,2023-06-12 13:51:54,0.461s,PASSED
+delay(1),Firefox 114.0,,,2023-06-12 13:51:54,2023-06-12 13:51:55,1.003s,PASSED
+"shopvariable = ""shop""",Firefox 114.0,,,2023-06-12 13:51:55,2023-06-12 13:51:55,0.000s,PASSED
+"verifyElementClickable(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Firefox 114.0,,,2023-06-12 13:51:55,2023-06-12 13:51:57,1.375s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Firefox 114.0,,,2023-06-12 13:51:57,2023-06-12 13:51:58,1.496s,PASSED
+"com.RSPage.checkout(Add_Object, Checkout_Object)",Firefox 114.0,,,2023-06-12 13:51:58,2023-06-12 13:52:04,6.325s,PASSED
+"verifyElementText(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X""), ""iphone X"")",Firefox 114.0,,,2023-06-12 13:52:04,2023-06-12 13:52:05,0.270s,PASSED
+"com.RSPage.payment(FinalCheckout, tnc, purchase)",Firefox 114.0,,,2023-06-12 13:52:05,2023-06-12 13:52:10,4.809s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)""), STOP_ON_FAILURE)",Firefox 114.0,,,2023-06-12 13:52:10,2023-06-12 13:52:10,0.304s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home""))",Firefox 114.0,,,2023-06-12 13:52:10,2023-06-12 13:52:10,0.356s,PASSED
+"com.RSPage.formdata(name, email, password, name_object, email_object, password_object)",Firefox 114.0,,,2023-06-12 13:52:10,2023-06-12 13:52:13,2.424s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg""))",Firefox 114.0,,,2023-06-12 13:52:13,2023-06-12 13:52:15,2.581s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully""), STOP_ON_FAILURE)",Firefox 114.0,,,2023-06-12 13:52:15,2023-06-12 13:52:15,0.254s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success""))",Firefox 114.0,,,2023-06-12 13:52:15,2023-06-12 13:52:16,0.458s,PASSED
+delay(2),Firefox 114.0,,,2023-06-12 13:52:16,2023-06-12 13:52:18,2.002s,PASSED
+Start tear down : TearDownMethod,Firefox 114.0,,,2023-06-12 13:52:18,2023-06-12 13:52:18,0.363s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 114.0,,,2023-06-12 13:52:18,2023-06-12 13:52:18,0.000s,PASSED
+,,,,,,,
+Test Cases/RahulShettyTestCase/RahulShettyLoginPage,Firefox 114.0,,,2023-06-12 13:52:18,2023-06-12 13:52:57,38.217s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 114.0,,,2023-06-12 13:52:18,2023-06-12 13:52:18,0.000s,PASSED
+Start setup action : SetupMethod,Firefox 114.0,,,2023-06-12 13:52:18,2023-06-12 13:52:30,12.003s,PASSED
+delay(2),Firefox 114.0,"
+What is this test script refers to ?
+-> here i have first signup the form using wrong credentials and then signup using right credentials with asserting that values , then after adding on product to cart
+and redirecting to the checkout then after i fill the form which was in the home page by using DDT , moreever i have also use Dynamic objects , dynamic keywords ,
+Global variable ,test listeners and run that test script in chrome and mozilla combinely using test suite collection 
+
+",,2023-06-12 13:52:30,2023-06-12 13:52:32,2.001s,PASSED
+"homevariable = ""Home""",Firefox 114.0,,,2023-06-12 13:52:32,2023-06-12 13:52:32,0.000s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":homevariable]))",Firefox 114.0,,,2023-06-12 13:52:32,2023-06-12 13:52:33,0.504s,PASSED
+delay(1),Firefox 114.0,,,2023-06-12 13:52:33,2023-06-12 13:52:34,1.002s,PASSED
+"shopvariable = ""shop""",Firefox 114.0,,,2023-06-12 13:52:34,2023-06-12 13:52:34,0.000s,PASSED
+"verifyElementClickable(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Firefox 114.0,,,2023-06-12 13:52:34,2023-06-12 13:52:35,1.309s,PASSED
+"click(findTestObject(""RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop"", [""text"":shopvariable]))",Firefox 114.0,,,2023-06-12 13:52:35,2023-06-12 13:52:37,1.450s,PASSED
+"com.RSPage.checkout(Add_Object, Checkout_Object)",Firefox 114.0,,,2023-06-12 13:52:37,2023-06-12 13:52:43,6.222s,PASSED
+"verifyElementText(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X""), ""iphone X"")",Firefox 114.0,,,2023-06-12 13:52:43,2023-06-12 13:52:43,0.235s,PASSED
+"com.RSPage.payment(FinalCheckout, tnc, purchase)",Firefox 114.0,,,2023-06-12 13:52:43,2023-06-12 13:52:48,4.758s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)""), STOP_ON_FAILURE)",Firefox 114.0,,,2023-06-12 13:52:48,2023-06-12 13:52:48,0.252s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home""))",Firefox 114.0,,,2023-06-12 13:52:48,2023-06-12 13:52:48,0.351s,PASSED
+"com.RSPage.formdata(name, email, password, name_object, email_object, password_object)",Firefox 114.0,,,2023-06-12 13:52:48,2023-06-12 13:52:51,2.397s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg""))",Firefox 114.0,,,2023-06-12 13:52:51,2023-06-12 13:52:53,2.561s,PASSED
+"verifyElementVisible(findTestObject(""RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully""), STOP_ON_FAILURE)",Firefox 114.0,,,2023-06-12 13:52:53,2023-06-12 13:52:54,0.253s,PASSED
+"click(findTestObject(""Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success""))",Firefox 114.0,,,2023-06-12 13:52:54,2023-06-12 13:52:54,0.445s,PASSED
+delay(2),Firefox 114.0,,,2023-06-12 13:52:54,2023-06-12 13:52:56,2.001s,PASSED
+Start tear down : TearDownMethod,Firefox 114.0,,,2023-06-12 13:52:56,2023-06-12 13:52:57,0.376s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 114.0,,,2023-06-12 13:52:57,2023-06-12 13:52:57,0.000s,PASSED

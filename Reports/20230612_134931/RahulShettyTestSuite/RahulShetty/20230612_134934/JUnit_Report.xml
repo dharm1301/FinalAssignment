@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RahulShetty" time="81.1" tests="2" failures="0" errors="0">
+   <testsuite name="RahulShetty" tests="2" failures="0" errors="0" time="81.1" skipped="0" timestamp="2023-06-12 13:51:35" hostname="dharm - SF-CPU-792" id="Test Suites/RahulShettyTestSuite/RahulShetty">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934"/>
+         <property name="logFiles" value="/home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/execution0.log"/>
+         <property name="attachments" value="/home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558107643.png, /home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558107756.png, /home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558146941.png, /home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558147069.png"/>
+         <property name="hostName" value="dharm - SF-CPU-792"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Firefox 114.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="d02eddac-2067-463c-bf93-6cfd66e8ee16"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" time="40.074" classname="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" status="PASSED">
+         <system-out><![CDATA[2023-06-12 13:51:38 - [TEST_CASE][PASSED] - Test Cases/RahulShettyTestCase/RahulShettyLoginPage: Test Cases/RahulShettyTestCase/RahulShettyLoginPage
+
+2023-06-12 13:51:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-06-12 13:51:38 - [TEST_STEP][PASSED] - Start setup action : SetupMethod: Method 'SetupMethod' complete successfully
+
+2023-06-12 13:51:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/loginpagePractise/' successfully
+
+2023-06-12 13:51:39 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/loginpagePractise/' successfully
+
+2023-06-12 13:51:39 - [TEST_STEP][PASSED] - getUrl().equals("https://rahulshettyacademy.com/loginpagePractise/"): Current window's url is: 'https://rahulshettyacademy.com/loginpagePractise/'
+
+2023-06-12 13:51:39 - [MESSAGE][PASSED] - Current window's url is: 'https://rahulshettyacademy.com/loginpagePractise/'
+
+2023-06-12 13:51:39 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-12 13:51:39 - [TEST_STEP][PASSED] - com.RSPage.Invalidlogin(Invalidusername, LoginPassword, object_username, object_password): com.RSPage.Invalidlogin is PASSED
+
+2023-06-12 13:51:40 - [MESSAGE][PASSED] - Text 'dharm' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'
+
+2023-06-12 13:51:40 - [MESSAGE][PASSED] - Text 'learning' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'
+
+2023-06-12 13:51:40 - [MESSAGE][PASSED] - com.RSPage.Invalidlogin is PASSED
+
+2023-06-12 13:51:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark")): Object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clickable
+
+2023-06-12 13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clickable
+
+2023-06-12 13:51:40 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark")): Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clicked on
+
+2023-06-12 13:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clicked on
+
+2023-06-12 13:51:41 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay")): Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay' is clicked on
+
+2023-06-12 13:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay' is clicked on
+
+2023-06-12 13:51:42 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:51:42 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name")): Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-12 13:51:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:51:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'. Try using Self-healing.
+
+2023-06-12 13:51:44 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]'.
+
+2023-06-12 13:51:44 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::h1[1]'.
+
+2023-06-12 13:51:44 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::h1[1]'.
+
+2023-06-12 13:51:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Shop Name']/parent::*'.
+
+2023-06-12 13:51:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h1'.
+
+2023-06-12 13:51:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h1[(text() = 'Shop Name' or . = 'Shop Name')]'.
+
+2023-06-12 13:51:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Shop Name' or . = 'Shop Name')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:51:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: h1.my-4'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:51:47 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+)
+[[ATTACHMENT|/home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558107643.png]]
+
+2023-06-12 13:51:47 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at Script1686023785468.SetupMethod(Script1686023785468.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558107756.png]]
+
+2023-06-12 13:51:47 - [TEST_STEP][PASSED] - catch (Exception e): Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+
+2023-06-12 13:51:47 - [TEST_STEP][PASSED] - com.RSPage.Validlogin(Validusername, LoginPassword, object_username, object_password): com.RSPage.Validlogin is PASSED
+
+2023-06-12 13:51:48 - [MESSAGE][PASSED] - Text 'rahulshettyacademy' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'
+
+2023-06-12 13:51:48 - [MESSAGE][PASSED] - Text 'learning' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'
+
+2023-06-12 13:51:48 - [MESSAGE][PASSED] - com.RSPage.Validlogin is PASSED
+
+2023-06-12 13:51:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:51:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 13:51:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:51:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name")): Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+
+2023-06-12 13:51:52 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+
+2023-06-12 13:51:52 - [MESSAGE][PASSED] - Method 'SetupMethod' complete successfully
+
+2023-06-12 13:51:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 13:51:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:51:54 - [TEST_STEP][PASSED] - homevariable = "Home": null
+
+2023-06-12 13:51:54 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop", ["text":homevariable])): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:51:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-06-12 13:51:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-12 13:51:55 - [TEST_STEP][PASSED] - shopvariable = "shop": null
+
+2023-06-12 13:51:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop", ["text":shopvariable])): Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clickable
+
+2023-06-12 13:51:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'shop' or . = 'shop')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:51:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop'. Try using Self-healing.
+
+2023-06-12 13:51:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' was broken. Propose an alternative one: '//a[@href = '/angularpractice/shop' and (text() = 'Shop' or . = 'Shop')]'.
+
+2023-06-12 13:51:57 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clickable
+
+2023-06-12 13:51:57 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop", ["text":shopvariable])): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:51:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'shop' or . = 'shop')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:51:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop'. Try using Self-healing.
+
+2023-06-12 13:51:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' was broken. Propose an alternative one: '//a[@href = '/angularpractice/shop' and (text() = 'Shop' or . = 'Shop')]'.
+
+2023-06-12 13:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:51:58 - [TEST_STEP][PASSED] - com.RSPage.checkout(Add_Object, Checkout_Object): com.RSPage.checkout is PASSED
+
+2023-06-12 13:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Add' is clicked on
+
+2023-06-12 13:52:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:52:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)'. Try using Self-healing.
+
+2023-06-12 13:52:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' was broken. Propose an alternative one: '//div[@id='navbarResponsive']/ul/li/a'.
+
+2023-06-12 13:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' is visible
+
+2023-06-12 13:52:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)'. Try using Self-healing.
+
+2023-06-12 13:52:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' was broken. Propose an alternative one: '//div[@id='navbarResponsive']/ul/li/a'.
+
+2023-06-12 13:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' is clicked on
+
+2023-06-12 13:52:04 - [MESSAGE][PASSED] - com.RSPage.checkout is PASSED
+
+2023-06-12 13:52:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X"), "iphone X"): Actual text and expected text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X' are matched.
+
+2023-06-12 13:52:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X' are matched.
+
+2023-06-12 13:52:05 - [TEST_STEP][PASSED] - com.RSPage.payment(FinalCheckout, tnc, purchase): com.RSPage.payment is PASSED
+
+2023-06-12 13:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Checkout' is clicked on
+
+2023-06-12 13:52:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions'. Try using Self-healing.
+
+2023-06-12 13:52:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::label[2]'.
+
+2023-06-12 13:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions' is clicked on
+
+2023-06-12 13:52:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'. Try using Self-healing.
+
+2023-06-12 13:52:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' was broken. Propose an alternative one: '//input[@value='Purchase']'.
+
+2023-06-12 13:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clickable
+
+2023-06-12 13:52:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'. Try using Self-healing.
+
+2023-06-12 13:52:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' was broken. Propose an alternative one: '//input[@value='Purchase']'.
+
+2023-06-12 13:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clicked on
+
+2023-06-12 13:52:10 - [MESSAGE][PASSED] - com.RSPage.payment is PASSED
+
+2023-06-12 13:52:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)"), STOP_ON_FAILURE): Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)' is visible
+
+2023-06-12 13:52:10 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)' is visible
+
+2023-06-12 13:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home' is clicked on
+
+2023-06-12 13:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home' is clicked on
+
+2023-06-12 13:52:10 - [TEST_STEP][PASSED] - com.RSPage.formdata(name, email, password, name_object, email_object, password_object): com.RSPage.formdata is PASSED
+
+2023-06-12 13:52:11 - [MESSAGE][PASSED] - Text 'dharm' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Name_name'
+
+2023-06-12 13:52:12 - [MESSAGE][PASSED] - Text 'Dharm@gmail.com' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Email_email'
+
+2023-06-12 13:52:13 - [MESSAGE][PASSED] - Text 'dharm123' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Password_exampleInputPassword1'
+
+2023-06-12 13:52:13 - [MESSAGE][PASSED] - com.RSPage.formdata is PASSED
+
+2023-06-12 13:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clicked on
+
+2023-06-12 13:52:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'. Try using Self-healing.
+
+2023-06-12 13:52:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='Purchase']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' was broken. Propose an alternative one: '//form/input'.
+
+2023-06-12 13:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clicked on
+
+2023-06-12 13:52:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully"), STOP_ON_FAILURE): Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully' is visible
+
+2023-06-12 13:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully' is visible
+
+2023-06-12 13:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success' is clicked on
+
+2023-06-12 13:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success' is clicked on
+
+2023-06-12 13:52:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 13:52:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - Start tear down : TearDownMethod: Method 'TearDownMethod' complete successfully
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop' is clicked on
+
+2023-06-12 13:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop' is clicked on
+
+2023-06-12 13:52:18 - [MESSAGE][PASSED] - Method 'TearDownMethod' complete successfully
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" time="38.217" classname="Test Cases/RahulShettyTestCase/RahulShettyLoginPage" status="PASSED">
+         <system-out><![CDATA[2023-06-12 13:52:18 - [TEST_CASE][PASSED] - Test Cases/RahulShettyTestCase/RahulShettyLoginPage: Test Cases/RahulShettyTestCase/RahulShettyLoginPage
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - Start setup action : SetupMethod: Method 'SetupMethod' complete successfully
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/loginpagePractise/' successfully
+
+2023-06-12 13:52:18 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/loginpagePractise/' successfully
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - getUrl().equals("https://rahulshettyacademy.com/loginpagePractise/"): Current window's url is: 'https://rahulshettyacademy.com/loginpagePractise/'
+
+2023-06-12 13:52:18 - [MESSAGE][PASSED] - Current window's url is: 'https://rahulshettyacademy.com/loginpagePractise/'
+
+2023-06-12 13:52:18 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at RahulShettyLoginPage.SetupMethod(RahulShettyLoginPage:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-12 13:52:18 - [TEST_STEP][PASSED] - com.RSPage.Invalidlogin(Invalidusername, LoginPassword, object_username, object_password): com.RSPage.Invalidlogin is PASSED
+
+2023-06-12 13:52:19 - [MESSAGE][PASSED] - Text 'dharm' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'
+
+2023-06-12 13:52:20 - [MESSAGE][PASSED] - Text 'learning' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'
+
+2023-06-12 13:52:20 - [MESSAGE][PASSED] - com.RSPage.Invalidlogin is PASSED
+
+2023-06-12 13:52:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark")): Object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clickable
+
+2023-06-12 13:52:20 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clickable
+
+2023-06-12 13:52:20 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark")): Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clicked on
+
+2023-06-12 13:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark' is clicked on
+
+2023-06-12 13:52:20 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay")): Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay' is clicked on
+
+2023-06-12 13:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay' is clicked on
+
+2023-06-12 13:52:21 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:52:22 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name")): Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at RahulShettyLoginPage.SetupMethod(RahulShettyLoginPage:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-12 13:52:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'. Try using Self-healing.
+
+2023-06-12 13:52:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]'.
+
+2023-06-12 13:52:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::h1[1]'.
+
+2023-06-12 13:52:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::h1[1]'.
+
+2023-06-12 13:52:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Shop Name']/parent::*'.
+
+2023-06-12 13:52:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h1'.
+
+2023-06-12 13:52:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h1[(text() = 'Shop Name' or . = 'Shop Name')]'.
+
+2023-06-12 13:52:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Shop Name' or . = 'Shop Name')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: h1.my-4'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:27 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at RahulShettyLoginPage.SetupMethod(RahulShettyLoginPage:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+)
+[[ATTACHMENT|/home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558146941.png]]
+
+2023-06-12 13:52:27 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at RahulShettyLoginPage.SetupMethod(RahulShettyLoginPage:74)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.processSetupPhase(TestCaseExecutor.java:203)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686557974743.run(TempTestSuite1686557974743.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' located by '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h1[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/home/dharm/git/FinalAssignment/Reports/20230612_134931/RahulShettyTestSuite/RahulShetty/20230612_134934/1686558147069.png]]
+
+2023-06-12 13:52:27 - [TEST_STEP][PASSED] - catch (Exception e): Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+
+2023-06-12 13:52:27 - [TEST_STEP][PASSED] - com.RSPage.Validlogin(Validusername, LoginPassword, object_username, object_password): com.RSPage.Validlogin is PASSED
+
+2023-06-12 13:52:27 - [MESSAGE][PASSED] - Text 'rahulshettyacademy' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Username_username'
+
+2023-06-12 13:52:28 - [MESSAGE][PASSED] - Text 'learning' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_Password_password'
+
+2023-06-12 13:52:28 - [MESSAGE][PASSED] - com.RSPage.Validlogin is PASSED
+
+2023-06-12 13:52:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin' is clicked on
+
+2023-06-12 13:52:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 13:52:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:52:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name")): Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+
+2023-06-12 13:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name' is visible
+
+2023-06-12 13:52:30 - [MESSAGE][PASSED] - Method 'SetupMethod' complete successfully
+
+2023-06-12 13:52:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 13:52:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:52:32 - [TEST_STEP][PASSED] - homevariable = "Home": null
+
+2023-06-12 13:52:32 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop", ["text":homevariable])): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:52:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-06-12 13:52:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-12 13:52:34 - [TEST_STEP][PASSED] - shopvariable = "shop": null
+
+2023-06-12 13:52:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop", ["text":shopvariable])): Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clickable
+
+2023-06-12 13:52:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'shop' or . = 'shop')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop'. Try using Self-healing.
+
+2023-06-12 13:52:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' was broken. Propose an alternative one: '//a[@href = '/angularpractice/shop' and (text() = 'Shop' or . = 'Shop')]'.
+
+2023-06-12 13:52:35 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clickable
+
+2023-06-12 13:52:35 - [TEST_STEP][PASSED] - click(findTestObject("RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop", ["text":shopvariable])): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:52:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'shop' or . = 'shop')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop'. Try using Self-healing.
+
+2023-06-12 13:52:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' was broken. Propose an alternative one: '//a[@href = '/angularpractice/shop' and (text() = 'Shop' or . = 'Shop')]'.
+
+2023-06-12 13:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/DynamicObjectCreation/a_Shop' is clicked on
+
+2023-06-12 13:52:37 - [TEST_STEP][PASSED] - com.RSPage.checkout(Add_Object, Checkout_Object): com.RSPage.checkout is PASSED
+
+2023-06-12 13:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Add' is clicked on
+
+2023-06-12 13:52:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:52:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)'. Try using Self-healing.
+
+2023-06-12 13:52:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' was broken. Propose an alternative one: '//div[@id='navbarResponsive']/ul/li/a'.
+
+2023-06-12 13:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' is visible
+
+2023-06-12 13:52:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)'. Try using Self-healing.
+
+2023-06-12 13:52:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' was broken. Propose an alternative one: '//div[@id='navbarResponsive']/ul/li/a'.
+
+2023-06-12 13:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Checkout ( 1 )            (current)' is clicked on
+
+2023-06-12 13:52:43 - [MESSAGE][PASSED] - com.RSPage.checkout is PASSED
+
+2023-06-12 13:52:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X"), "iphone X"): Actual text and expected text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X' are matched.
+
+2023-06-12 13:52:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X' are matched.
+
+2023-06-12 13:52:43 - [TEST_STEP][PASSED] - com.RSPage.payment(FinalCheckout, tnc, purchase): com.RSPage.payment is PASSED
+
+2023-06-12 13:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/button_Checkout' is clicked on
+
+2023-06-12 13:52:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions'. Try using Self-healing.
+
+2023-06-12 13:52:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::label[2]'.
+
+2023-06-12 13:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/label_I agree with the term  Conditions' is clicked on
+
+2023-06-12 13:52:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'. Try using Self-healing.
+
+2023-06-12 13:52:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' was broken. Propose an alternative one: '//input[@value='Purchase']'.
+
+2023-06-12 13:52:46 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clickable
+
+2023-06-12 13:52:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'. Try using Self-healing.
+
+2023-06-12 13:52:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' was broken. Propose an alternative one: '//input[@value='Purchase']'.
+
+2023-06-12 13:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clicked on
+
+2023-06-12 13:52:48 - [MESSAGE][PASSED] - com.RSPage.payment is PASSED
+
+2023-06-12 13:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)"), STOP_ON_FAILURE): Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)' is visible
+
+2023-06-12 13:52:48 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)' is visible
+
+2023-06-12 13:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home' is clicked on
+
+2023-06-12 13:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home' is clicked on
+
+2023-06-12 13:52:48 - [TEST_STEP][PASSED] - com.RSPage.formdata(name, email, password, name_object, email_object, password_object): com.RSPage.formdata is PASSED
+
+2023-06-12 13:52:49 - [MESSAGE][PASSED] - Text 'deep' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Name_name'
+
+2023-06-12 13:52:50 - [MESSAGE][PASSED] - Text 'deep@gmail.com' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Email_email'
+
+2023-06-12 13:52:51 - [MESSAGE][PASSED] - Text 'deep123' is set on object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_Password_exampleInputPassword1'
+
+2023-06-12 13:52:51 - [MESSAGE][PASSED] - com.RSPage.formdata is PASSED
+
+2023-06-12 13:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clicked on
+
+2023-06-12 13:52:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'. Try using Self-healing.
+
+2023-06-12 13:52:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='Purchase']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 13:52:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' was broken. Propose an alternative one: '//form/input'.
+
+2023-06-12 13:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg' is clicked on
+
+2023-06-12 13:52:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully"), STOP_ON_FAILURE): Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully' is visible
+
+2023-06-12 13:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success The Form has been submitted successfully' is visible
+
+2023-06-12 13:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success' is clicked on
+
+2023-06-12 13:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success' is clicked on
+
+2023-06-12 13:52:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 13:52:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 13:52:56 - [TEST_STEP][PASSED] - Start tear down : TearDownMethod: Method 'TearDownMethod' complete successfully
+
+2023-06-12 13:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop")): Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop' is clicked on
+
+2023-06-12 13:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop' is clicked on
+
+2023-06-12 13:52:57 - [MESSAGE][PASSED] - Method 'TearDownMethod' complete successfully
+
+2023-06-12 13:52:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-12 13:51:35 - [TEST_SUITE][PASSED] - RahulShetty: Test Cases/RahulShettyTestCase/RahulShettyLoginPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

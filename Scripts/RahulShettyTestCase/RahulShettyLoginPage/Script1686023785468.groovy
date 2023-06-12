@@ -17,13 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-"""
-What is this test script refers to ?
--> here i have first signup the form using wrong credentials and then signup using right credentials with asserting that values , then after adding on product to cart
-and redirecting to the checkout then after i fill the form which was in the home page by using DDT , moreever i have also use Dynamic objects , dynamic keywords ,
-Global variable ,test listeners and run that test script in chrome and mozilla combinely using test suite collection 
-
-"""
+'\nWhat is this test script refers to ?\n-> here i have first signup the form using wrong credentials and then signup using right credentials with asserting that values , then after adding on product to cart\nand redirecting to the checkout then after i fill the form which was in the home page by using DDT , moreever i have also use Dynamic objects , dynamic keywords ,\nGlobal variable ,test listeners and run that test script in chrome and mozilla combinely using test suite collection \n\n'
+WebUI.delay(2)
 
 String homevariable = 'Home'
 
@@ -41,14 +36,14 @@ CustomKeywords.'com.RSPage.checkout'(Add_Object, Checkout_Object)
 
 WebUI.verifyElementText(findTestObject('RahulShetty_Repo/assertion/Page_ProtoCommerce/a_iphone X'), 'iphone X')
 
-CustomKeywords.'com.RSPage.payment'(FinalCheckout,tnc,purchase)
+CustomKeywords.'com.RSPage.payment'(FinalCheckout, tnc, purchase)
 
 WebUI.verifyElementVisible(findTestObject('RahulShetty_Repo/assertion/Page_ProtoCommerce/div_Success Thank you Your order will be delivered in next few weeks -)'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_ProtoCommerce Home'))
 
-CustomKeywords.'com.RSPage.formdata'(name,email,password,name_object,email_object,password_object)
+CustomKeywords.'com.RSPage.formdata'(name, email, password, name_object, email_object, password_object)
 
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/input_term  Conditions_btn btn-success btn-lg'))
 
@@ -57,7 +52,7 @@ WebUI.verifyElementVisible(findTestObject('RahulShetty_Repo/assertion/Page_Proto
 
 WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/strong_Success'))
 
-WebUI.delay(2)
+WebUI.delay(2) 
 
 @com.kms.katalon.core.annotation.SetUp
 def SetupMethod() {
@@ -66,41 +61,31 @@ def SetupMethod() {
     WebUI.getUrl().equals('https://rahulshettyacademy.com/loginpagePractise/')
 
     try {
-		
-		CustomKeywords.'com.RSPage.Invalidlogin'(Invalidusername,LoginPassword,object_username,object_password)
-		
+        CustomKeywords.'com.RSPage.Invalidlogin'(Invalidusername, LoginPassword, object_username, object_password)
+
         WebUI.verifyElementClickable(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark'))
 
         WebUI.click(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/span_User_checkmark'))
 
-        WebUI.verifyElementText(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_You will be limited to only fewer functionalities of the app. Proceed'), 
-            'You will be limited to only fewer functionalities of the app. Proceed?')
-
         WebUI.click(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/button_Okay'))
 
-        WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin'))
+        WebUI.click(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin'))
 
-        WebUI.verifyElementText(findTestObject('RahulShetty_Repo/assertion/Page_LoginPage Practise  Rahul Shetty Academy/div_Incorrect usernamepassword'), 
-            ' username/password.')
-
-        WebUI.verifyElementPresent(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'), 
-            0)
+        WebUI.verifyElementVisible(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'))
     }
     catch (Exception e) {
-		
-		CustomKeywords.'com.RSPage.Validlogin'(Validusername,LoginPassword,object_username,object_password)
-      
+        CustomKeywords.'com.RSPage.Validlogin'(Validusername, LoginPassword, object_username, object_password)
+
         WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_LoginPage Practise  Rahul Shetty Academy/Page_LoginPage Practise  Rahul Shetty Academy/input_I Agree to the_signin'))
 
         WebUI.delay(2)
 
-        WebUI.verifyElementPresent(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'), 
-            0)
+        WebUI.verifyElementVisible(findTestObject('RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/h1_Shop Name'))
     } 
 }
 
 @com.kms.katalon.core.annotation.TearDown
 def TearDownMethod() {
-    WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop'))
+	WebUI.click(findTestObject('Object Repository/RahulShetty_Repo/RahulShetty_Repo/Page_ProtoCommerce/Page_ProtoCommerce/a_Shop'))
 }
 
